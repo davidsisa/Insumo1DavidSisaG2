@@ -41,6 +41,9 @@ export class HomePage {
     }).catch(()=>{
       this.toast.showToast("Error al guardar","danger","sad-outline");
     });
+    if (this.newPersona.nombre=="Seco de Pollo" || this.newPersona.nombre == "Ceviche de camaron"|| this.newPersona.nombre == "Fritada"){
+     
+    }
   }
 
   delete(p:Item){
